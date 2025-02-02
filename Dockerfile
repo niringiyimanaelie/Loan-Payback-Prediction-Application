@@ -16,5 +16,5 @@ COPY . /app
 # Expose the port the app runs on
 EXPOSE 5000
 
-# Set the default command to run the Flask app
+# Set the default command to run the Flask app.
 CMD ["python", "app.py"]
