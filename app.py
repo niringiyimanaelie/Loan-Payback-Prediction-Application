@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import pickle
 import pandas as pd
-
+import test_app
 app = Flask(__name__)
 
 # Load the trained logistic regression model
